@@ -1,0 +1,80 @@
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+
+}
+.container_head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price{
+    padding: 12px;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.reset_pizza{
+    width: 120px;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    width: 300px;
+
+}
+.quantity_product{
+  display: flex;
+  align-items: center;
+
+}
+.container_productItem{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid black;
+    padding: 12px;
+}
+.button_minus{
+    width: 36px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+}
+
+.button_incre{
+    width: 36px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+}
+.quantity{
+    width: 36px;
+    height: 30px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border:1px solid black;
+}
+.checkout_button{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+.container_image_order{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 12px;
+
+}
